@@ -1,5 +1,7 @@
 
 
+![Harari-4C-Protocol Banner](./assets/banner.png)
+
 # Harari-4C-Protocol
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
