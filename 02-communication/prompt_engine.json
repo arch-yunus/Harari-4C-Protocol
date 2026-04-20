@@ -1,0 +1,23 @@
+{
+  "protocol": "Harari-4C-Communication-1.0",
+  "prompts": [
+    {
+      "id": "critical_review",
+      "name": "Kritik Analiz İstemi",
+      "description": "Bir fikrin veya kod bloğunun mantıksal hatalarını ve zayıf noktalarını bulur.",
+      "template": "Aşağıdaki metni/kodu Harari-4C-Protocol standartlarına göre analiz et. Metindeki mantıksal safsataları, gizli yanlılıkları (bias) ve sistemik riskleri belirle. Sonuçları 'Eleştirel Katman', 'Olası Safsatalar' ve 'İyileştirme Önerileri' başlıkları altında sun.\n\nİçerik:\n{{content}}"
+    },
+    {
+      "id": "system_simplify",
+      "name": "Sistem Sadeleştirme İstemi",
+      "description": "Karmaşık teknik mimarileri her seviyeden alıcının anlayabileceği şekilde özetler.",
+      "template": "Aşağıdaki teknik mimariyi, 'Yüksek Düzeyli Özet', 'Bileşen İlişkileri' ve 'Analojik Açıklama' (beş yaşındaki birine anlatır gibi) formatında sadeleştir.\n\nMimari Detaylar:\n{{architecture}}"
+    },
+    {
+      "id": "collaboration_protocol",
+      "name": "İş Birliği Protokolü Oluşturucu",
+      "description": "Dağınık ekipler için iletişim ve senkronizasyon kuralları seti hazırlar.",
+      "template": "Verilen proje kapsamı için bir 'İş Birliği Protokolü' hazırla. Protokol; senkronizasyon sıklığını, karar alma mekanizmasını ve çatışma çözme adımlarını içermelidir.\n\nProje Kapsamı:\n{{scope}}"
+    }
+  ]
+}

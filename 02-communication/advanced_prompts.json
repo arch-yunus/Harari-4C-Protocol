@@ -1,0 +1,29 @@
+{
+  "protocol": "Harari-4C-Communication-Advanced-1.0",
+  "categories": {
+    "Architecture": [
+      {
+        "id": "refactor_clean_code",
+        "name": "Clean Code & 4C Refactoring",
+        "description": "Kodu hem temiz kod (clean code) hem de 4C prensiplerine göre optimize eder.",
+        "template": "Aşağıdaki kodu analiz et. Değişken isimlendirmelerini 'Communication' (anlaşılabilirlik), mantığı 'Critical Thinking' (verimlilik ve hata payı) ve yapıyı 'Creativity' (esneklik) açısından iyileştir.\n\nKod:\n{{code}}"
+      }
+    ],
+    "Interpersonal": [
+      {
+        "id": "conflict_resolution",
+        "name": "Çatışma Çözme Mantığı",
+        "description": "Ekip içi anlaşmazlıklarda rasyonel ve yapıcı bir çözüm yolu sunar.",
+        "template": "Verilen ekip içi anlaşmazlık durumunu analiz et. Duygusal önyargıları (bias) ayıkla, tarafların teknik argümanlarını listele ve 'Collaboration' prensibi çerçevesinde her iki tarafın da kabul edebileceği rasyonel bir çözüm önerisi geliştir.\n\nDurum:\n{{conflict_description}}"
+      }
+    ],
+    "Education": [
+      {
+        "id": "mentor_feedback",
+        "name": "Gelişim Odaklı Geri Bildirim",
+        "description": "Junior mühendisler/sistemler için 4C odaklı mentörlük çıktısı üretir.",
+        "template": "Bu çalışmayı incele ve kişiye/sisteme geri bildirim hazırla. Eleştirilerini 4C başlıkları altında (Eleştirel Düşünme, İletişim, İş Birliği, Yaratıcılık) kategorize et ve her biri için somut bir 'aksiyon adımı' belirle.\n\nÇalışma:\n{{submission}}"
+      }
+    ]
+  }
+}
